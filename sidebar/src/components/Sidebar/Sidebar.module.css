@@ -1,0 +1,32 @@
+.sidebar {
+  background-color: pink;
+  width: 15vw;
+  height: 100vh;
+  padding: 2rem;
+  padding-left: 0;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.sidebar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 4rem !important;
+}
+
+.sidebar-item {
+  background-color: #fb7185;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.sidebar-link {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
