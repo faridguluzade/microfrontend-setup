@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Content from "./components/Content/Content";
+import Root from "./routes/router";
 
 import "./index.css";
 
 const App = () => {
-  return <Content />;
+  return <Root />;
 };
 
 export default App;
